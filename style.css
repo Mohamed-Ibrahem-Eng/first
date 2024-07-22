@@ -9,6 +9,14 @@ body{
 html{
 scroll-behavior: smooth;
 }
+p{
+  font-size: 1.2rem;
+}
+@media(max-width:1200px){
+  p{
+    font-size: 1.4;
+  }
+}
 header.pin{
   position: fixed;
 top: 0;
@@ -72,7 +80,7 @@ font-family: Roboto;
 
  /* **** scroll up *** */
 .btn-up button{
-  padding: 12px;
+  padding: 20px;
   border-radius: 20px;
   color: #fff ;
   background-color: blueviolet ;
@@ -80,7 +88,7 @@ font-family: Roboto;
   bottom: 20px;
   right: 20px;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,6 +145,7 @@ background: linear-gradient(to right ,blueviolet ,blue  );
 border-width: 3px;
 border-style: solid;
 border-color: blue blueviolet;
+
 }
 .secondary-button:hover{
   background: linear-gradient(to right ,blueviolet ,blue  );
@@ -188,6 +197,7 @@ line-height: 2;
   border-radius: 4px;
 }
 .experience-area{
+ 
  max-width: 600px; 
  margin: auto;
 padding: 40px;
@@ -195,6 +205,11 @@ padding: 40px;
   margin-bottom: 100px;
   border-radius: 8px;
  
+}
+@media(min-width:991px){
+  .experience-area{
+    margin-top: 100px;
+  }
 }
 .call{
   margin: 150px auto 0;
@@ -242,7 +257,7 @@ text-align: start;
 .services-offers .box{
 text-align: center;
 transition: 0.5s;
-padding: 5rem .5rem;
+padding: 4rem 1rem;
 }
 .services-offers .box:hover{
   border-radius: 7px;
@@ -254,7 +269,7 @@ padding: 5rem .5rem;
   color: blueviolet;
 }
 .services-offers .title{
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -334,15 +349,15 @@ border-radius: 7px;
 }
 
 .about-area .caro img{
-width: 200px;
- height: 200px;
+width: 120px;
+ height: 120px;
   border-radius: 50%;
 }
 .about-area .caro{
   background-color:#dddddd80 ;
   border-radius: 10px;
   text-align: center;
-  padding: 1.5rem 1rem;
+  padding: 3rem 1rem;
  max-width: 800px;
  margin: auto;
 }
